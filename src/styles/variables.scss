@@ -1,16 +1,17 @@
 :root {
     --branco: #fff;
+    --cinza: #EFEFEF;
     --primary-color: #262835;
     --secondary-color: #ff5473;
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Poppins", "Helvetica Neue", sans-serif;
     background: var(--primary-color);
 }
 
 main {
-    max-width: rem-calc(600);
+    max-width: 37.5rem;
     margin: 0 auto;
     box-sizing: border-box;
 }
