@@ -1,6 +1,7 @@
 $padding: 1.25rem;
 
-:host {
+:host{
+.listagem {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -17,9 +18,11 @@ $padding: 1.25rem;
         padding: $padding;
         margin-bottom: 0.625rem;
         border-radius: 0.625rem;
+        color: var(--primary-color);
+
+        text-decoration: none;
 
         &__status {
-            color: var(--primary-color);
             h2 {
                 font-size: 1.375rem ;
                 font-style: italic;
@@ -69,4 +72,5 @@ $padding: 1.25rem;
 
         }
     }
+}
 }
